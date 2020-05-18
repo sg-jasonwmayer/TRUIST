@@ -1,17 +1,18 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import classNames from 'classnames';
-import "./App.css";
+
 import WorkOrders from "./WorkOrders";
 import ProductRow from "./ProductRow";
-import Header from "./Header";
 import BtnGroup from "./BtnGroup";
-import Sidebar from "./Sidebar";
+import logo from './assets/logo.png';
 
-class App extends Component {
+import "./App.css";
+
+
+class App extends PureComponent {
     state = {
         listView: true,
         gridView: false,
-        value: 'John Doe',
         modalVisibility: false,
     };
     handleList = () => {
@@ -38,17 +39,13 @@ class App extends Component {
     };
     handleSave = (event) => {
         this.setState({
-            value: this.refs.nameForm.value,
             modalVisibility: false,
         });
     };
 
     render() {
         let modalStyle = this.state.modalVisibility ? 'block' : "none";
-        let btnClass = classNames('item', {
-            'list-group-item': this.state.listView,
-            'grid-group-item': this.state.gridView,
-        });
+        let btnClass = classNames('item', {'list-group-item': this.state.listView,'grid-group-item': this.state.gridView,});
         let rows = WorkOrders.map(person => {
             return <ProductRow
                 key={person.id}
@@ -57,7 +54,8 @@ class App extends Component {
                 gridView={this.state.gridView}
             />
         });
-        return <div className="container">
+        return (
+        <div className="container">
             <div className="modal fade bs-example-modal-sm in" tabindex="-1" style={{ 'display': modalStyle }}>
                 <div className="modal-dialog modal-sm" role="document">
                     <div className="modal-content">
@@ -83,21 +81,16 @@ class App extends Component {
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <Header/>
-            </div>
+      
             <div className="row row-eq-height gray-bg">
-                <Sidebar
-                    value = {this.state.value}
-                    showModal = {this.showModal}
-                />
+          
                 <div className="col-sm-9 col-xs-12 main-container">
-                    <h2>React JS List Grid View Interchange</h2>
+                <img src={logo} alt="Truist Bank Logo" width="200"/>
                     <div className="row">
                         <div className="col-sm-offset-8 col-sm-4 text-right grid-space">
                             <BtnGroup
-                                handleList={this.handleList}
-                                handleGrid={this.handleGrid}
+                              handleList={this.handleList}
+                              handleGrid={this.handleGrid}
                             />
                         </div>
                     </div>
@@ -120,7 +113,7 @@ class App extends Component {
                 </div>
             </div>
         </div>
-    }
+        )};
 }
 
 

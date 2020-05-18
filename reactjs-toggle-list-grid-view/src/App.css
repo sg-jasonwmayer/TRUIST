@@ -1,12 +1,12 @@
 header {
-    background: #e0e0e0;
+    background: #000033;
     padding: 15px;
 }
 .main-container{
     padding: 0 35px;
 }
 .sidebar{
-    background: #343433;
+    background: 000033;
 }
 
 .gray-bg{
@@ -17,6 +17,9 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
+}
+.header-container  {
+  background-color: #271c52;
 }
 .modal{
     background: rgba(0, 0, 0, 0.53);
