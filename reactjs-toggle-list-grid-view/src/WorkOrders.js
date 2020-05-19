@@ -2,13 +2,13 @@ const WorkOrders = [{
     status: 'Draft',
     service_date: '6/30/2016',
     service_time: '2:17 PM',
-    title: 'Alarm system false reporting due to possible keypad< water damage',
+    title: 'John Smith',
     address1: '6556 Evergreen Boulevard Apt 76',
     address2: 'Royalston, MA 01368',
-    pay_type: 'hourly',
-    pay_amount: 12,
-    id: '46',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    // pay_type: 'hourly',
+    // pay_amount: 12,
+    id: 'regional manager',
+    project: 'TRUIST'
 }, {
     status: 'Draft',
     service_date: '6/30/2016',
@@ -19,7 +19,7 @@ const WorkOrders = [{
     pay_type: 'hourly',
     pay_amount: 8,
     id: '47',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    project: 'BB&T'
 }, {
     status: 'Draft',
     service_date: '6/30/2016',

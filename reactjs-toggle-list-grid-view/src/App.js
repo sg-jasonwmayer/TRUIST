@@ -1,12 +1,12 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent } from 'react';
 import classNames from 'classnames';
 
-import WorkOrders from "./WorkOrders";
-import ProductRow from "./ProductRow";
-import BtnGroup from "./BtnGroup";
+import WorkOrders from './WorkOrders';
+import ProductRow from './ProductRow';
+import BtnGroup from './BtnGroup';
 import logo from './assets/logo.png';
 
-import "./App.css";
+import './App.css';
 
 
 class App extends PureComponent {
@@ -44,7 +44,7 @@ class App extends PureComponent {
     };
 
     render() {
-        let modalStyle = this.state.modalVisibility ? 'block' : "none";
+        let modalStyle = this.state.modalVisibility ? 'block' : 'none';
         let btnClass = classNames('item', {'list-group-item': this.state.listView,'grid-group-item': this.state.gridView,});
         let rows = WorkOrders.map(person => {
             return <ProductRow
@@ -56,7 +56,7 @@ class App extends PureComponent {
         });
         return (
         <div className="container">
-            <div className="modal fade bs-example-modal-sm in" tabindex="-1" style={{ 'display': modalStyle }}>
+            <div className="modal fade bs-example-modal-sm in" tabIndex="-1" style={{ 'display': modalStyle }}>
                 <div className="modal-dialog modal-sm" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -81,11 +81,12 @@ class App extends PureComponent {
                     </div>
                 </div>
             </div>
-      
+
             <div className="row row-eq-height gray-bg">
-          
                 <div className="col-sm-9 col-xs-12 main-container">
-                <img src={logo} alt="Truist Bank Logo" width="200"/>
+                   <div className="logo-container">
+                     <img src={logo} alt="Truist Bank Logo" width="200"/>
+                   </div> 
                     <div className="row">
                         <div className="col-sm-offset-8 col-sm-4 text-right grid-space">
                             <BtnGroup
@@ -94,7 +95,6 @@ class App extends PureComponent {
                             />
                         </div>
                     </div>
-
                     <div className={btnClass}>
                         <div className="row auto-clear">
                             <div className="table-row header caption">
