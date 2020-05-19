@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import "./App.css";
@@ -7,13 +7,6 @@ const ProductRow = (props) => {
     let btnClass = classNames('',{
         'thumbnail': props.listView,
         ' col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail-grid': props.gridView,
-    });
-    let statusClass = classNames('list-status list-text-block',{
-        'draft-color': props.data.status === 'Draft',
-        'published-color': props.data.status === 'Published',
-        'routed-color': props.data.status === 'Routed',
-        'work-color': props.data.status === 'Work Done',
-        'assigned-color': props.data.status === 'Assigned',
     });
     return (
         <div className={btnClass}>
@@ -25,7 +18,7 @@ const ProductRow = (props) => {
                     <strong>Id:</strong>
                     {props.data.id}
                 </p>
-                    <p className={statusClass}>
+                    <p className="published-color">
                         <strong>Status:</strong>
                     {props.data.status}
                 </p>
@@ -35,12 +28,12 @@ const ProductRow = (props) => {
                     {props.data.address2}
                 </p>
                 <p className="list-amount list-text-block">
-                    <strong>Pay:</strong>
+                    <strong>circ:</strong>
                     {props.data.pay_amount}
                     {props.data.pay_type}
                 </p>
                 <p className="list-date list-text-block">
-                    <strong>Service Date:</strong>
+                    <strong>Started with company:</strong>
                     {props.data.service_date}<br/>
                     {props.data.service_time}
                 </p>
