@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { Avatar } from '@material-ui/core';
 import "./App.css";
 
 const ProductRow = (props) => {
     let btnClass = classNames('',{
         'thumbnail': props.listView,
-        ' col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail-grid': props.gridView,
+        'col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail-grid': props.gridView,
     });
     return (
         <div className={btnClass}>
@@ -19,7 +20,7 @@ const ProductRow = (props) => {
                     {props.data.id}
                 </p>
                     <p className="published-color">
-                        <strong>Status:</strong>
+                    <strong>Status:</strong>
                     {props.data.status}
                 </p>
                 <p className="list-address list-text-block">

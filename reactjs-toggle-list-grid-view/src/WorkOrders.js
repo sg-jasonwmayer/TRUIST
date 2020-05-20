@@ -3,11 +3,11 @@ const WorkOrders = [{
     service_date: '6/30/2016',
     service_time: '2:17 PM',
     title: 'John Smith',
-    address1: '6556 Evergreen Boulevard Apt 76',
-    address2: 'Royalston, MA 01368',
+    address1: 'Head of Asset Finance',
+    address2: '',
     // pay_type: 'hourly',
     // pay_amount: 12,
-    id: 'regional manager',
+    id: 'See More',
     project: 'TRUIST'
 }, {
     status: 'Draft',
