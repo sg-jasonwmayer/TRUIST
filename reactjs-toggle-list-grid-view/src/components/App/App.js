@@ -1,12 +1,14 @@
 import React, { PureComponent } from 'react';
 import classNames from 'classnames';
 
-import WorkOrders from './WorkOrders';
-import ProductRow from './ProductRow';
-import BtnGroup from './BtnGroup';
-import logo from './assets/logo.png';
+import WorkOrders from '../WorkOrders';
+import ProductRow from '../ProductRow';
+import BtnGroup from '../BtnGroup';
+import logo from '../../assets/logo.png';
+
 
 import './App.css';
+
 
 
 class App extends PureComponent {
@@ -59,6 +61,7 @@ class App extends PureComponent {
             <div className="modal fade bs-example-modal-sm in" tabIndex="-1" style={{ 'display': modalStyle }}>
                 <div className="modal-dialog modal-sm" role="document">
                     <div className="modal-content">
+                        <div className="modal-image"></div>
                         <div className="modal-header">
                             <h4 className="modal-title" id="mySmallModalLabel">Edit Name</h4>
                         </div>
@@ -102,12 +105,11 @@ class App extends PureComponent {
                                 <div className=" list-text-block">Id</div>
                                 <div className=" list-text-block">Status</div>
                                 <div className=" list-text-block">Location</div>
-                                <div className=" list-text-block">Pay</div>
                                 <div className="list-date list-text-block">Date/Time</div>
                             </div>
                         </div>
                         <div className="row auto-clear">
-                            {rows}
+                        {rows}
                         </div>
                     </div>
                 </div>

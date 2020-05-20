@@ -2,6 +2,11 @@ header {
     background: #271c52;
     padding: 15px;
 }
+.avatar-image {
+    width: 20%;
+    height: 20%;
+   
+}
 .logo-container {
     padding-top: 69px ;
 
@@ -213,14 +218,6 @@ p.list-status.list-text-block {
 
 /*Status Color*/
 
-.list-group-item .draft-color {
-    background: #666666;
-    height: 29px;
-    border-radius: 17px;
-    color: white;
-    line-height: 28px;
-    text-indent: 25px;
-}
 .list-group-item .published-color{
     margin: 5px;
     max-width: 102px;
