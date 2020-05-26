@@ -1,0 +1,126 @@
+WorkOrders = [{
+    button_text: 'See More',
+    name: 'John Gregg',
+    title: 'Chairman of the Board',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Dana Dhaliwal',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Tom Hacket',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+},  {
+    button_text: 'See More',
+    name: 'Mark Huffsteeler',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
+}, {
+    button_text: 'See More',
+    name: 'Lisa Meyer',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Janet Jarret',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Glenn Stewart',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'Work Done',
+    service_date: '6/30/2016',
+    service_time: '2:00 PM',
+    name: 'Erin Watson',
+    address1: '4208 Sunset Beach Apt 1',
+    address2: 'Newton Lower Falls, MA 02462',
+    pay_type: 'hourly',
+    pay_amount: 10,
+    id: '57',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}, {
+    button_text: 'Routed',
+    service_date: '6/30/2016',
+    service_time: '1:17 PM',
+    name: 'Michael Wheeler',
+    address1: '1354 4th Garden Suite 41',
+    address2: 'Lizemores, WV 25125',
+    pay_type: 'hourly',
+    pay_amount: 12,
+    id: '58',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}, {
+    button_text: 'See More',
+    service_date: '6/30/2016',
+    service_time: '12:47 PM',
+    name: 'Robert Popolopogous',
+    address1: '4121 4th Estate Apt 91',
+    address2: 'Port Byron, IL 61275',
+    pay_type: 'hourly',
+    pay_amount: 13,
+    id: '60',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}, {
+    button_text: 'See More',
+    service_date: '6/30/2016',
+    service_time: '2:47 PM',
+    name: 'Alon Meller',
+    address1: '9572 Church Hill Ste 51',
+    address2: 'Newbury Park, CA 91319',
+    pay_type: 'hourly',
+    pay_amount: 10,
+    id: '61',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}, {
+    button_text: 'See More',
+    service_date: '6/30/2016',
+    service_time: '1:47 PM',
+    name: 'Pat Harriston',
+    address1: '6615 Birch Bluff Unit 15',
+    address2: 'Burns, KS 66840',
+    pay_type: 'hourly',
+    pay_amount: 15,
+    id: '62',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}, {
+    button_text: 'Assigned',
+    service_date: '6/30/2016',
+    service_time: '2:47 PM',
+    name: 'James Neely',
+    address1: '3010 4th Avenue Unit 45',
+    address2: 'Alberta, MN 56207',
+    pay_type: 'hourly',
+    pay_amount: 15,
+    id: '64',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}, {
+    button_text: 'Assigned',
+    service_date: '6/30/2016',
+    service_time: '2:17 PM',
+    name: 'Rank Delfano',
+    address1: '9675 4th Field Ste 50',
+    address2: 'Saint Albans, MO 63073',
+    pay_type: 'hourly',
+    pay_amount: 10,
+    id: '65',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+},  {
+    button_text: 'Work Done',
+    service_date: '6/30/2016',
+    service_time: '1:17 PM',
+    name: 'Mike Diamond',
+    address1: '5005 Park Dr Suite 79',
+    address2: 'Chicago, IL 60685',
+    pay_type: 'hourly',
+    pay_amount: 13,
+    id: '70',
+    project: 'Broken CCTV display - replace as per on site contaxt'
+}];
+

@@ -6,10 +6,10 @@ const BtnGroup = (props) => {
     return (
         <div className="btn-group" >
             <span onClick={props.handleList} id="list" className="btn btn-default btn-xs">
-              <i className="glyphicon glyphicon-th-list"/> List
+              <i className="glyphicon glyphicon-align-justify"/>
             </span>
             <span onClick={props.handleGrid} id="grid" className="btn btn-default btn-xs">
-              <i className="glyphicon glyphicon-th"/> Grid
+              <i className="glyphicon glyphicon-th"/>
             </span>
         </div>
     );

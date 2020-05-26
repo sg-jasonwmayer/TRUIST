@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Avatar from '../../assets/ben-image.jpg'
+import Avatar from '../../assets/img2.png'
 
 import "./ProductRow.css";
 
@@ -14,33 +14,18 @@ const ProductRow = (props) => {
     return (
         <div className={btnClass}>
             <div className="caption">
-            <img src={Avatar} alt={props.data.title} className="avatar-image"/>
+               <img src={Avatar} alt={props.data.name} className="avatar-image"/>
                 <h4 className="group inner list-group-item-heading list-text-block">
-                    {props.data.title}
+                    {props.data.name}
                 </h4>
                 <p className="group inner list-group-item-text list-group-item-id list-text-block">
-                    <strong>Id:</strong>
-                    {props.data.id}
-                </p>
-         
-                    <p className="published-color">
-                        <strong>Status:</strong>
-                        {props.data.status}
-                </p>
-                <p className="list-address list-text-block">
-                    <strong>Address:</strong>
-                    {props.data.address1}
-                    {props.data.address2}
-                </p>
-                <p className="list-amount list-text-block">
-                    <strong>circ:</strong>
-                    {props.data.pay_amount}
-                    {props.data.pay_type}
+                  {props.data.title}
                 </p>
                 <p className="list-date list-text-block">
-                    <strong>Started with company:</strong>
-                    {props.data.service_date}<br/>
-                    {props.data.service_time}
+                    {props.data.member_biopic}
+                </p>
+                <p className="published-color" onClick={props.handleGrid}>
+                  {props.data.button_text}
                 </p>
             </div>
         </div>

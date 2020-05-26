@@ -1,11 +1,9 @@
 import React, { PureComponent } from 'react';
 import classNames from 'classnames';
-
 import WorkOrders from '../WorkOrders';
 import ProductRow from '../ProductRow';
 import BtnGroup from '../BtnGroup';
 import logo from '../../assets/logo.png';
-
 
 import './App.css';
 
@@ -49,6 +47,7 @@ class App extends PureComponent {
         let modalStyle = this.state.modalVisibility ? 'block' : 'none';
         let btnClass = classNames('item', {'list-group-item': this.state.listView,'grid-group-item': this.state.gridView,});
         let rows = WorkOrders.map(person => {
+
             return <ProductRow
                 key={person.id}
                 data={person}
@@ -56,7 +55,9 @@ class App extends PureComponent {
                 gridView={this.state.gridView}
             />
         });
+
         return (
+
         <div className="container">
             <div className="modal fade bs-example-modal-sm in" tabIndex="-1" style={{ 'display': modalStyle }}>
                 <div className="modal-dialog modal-sm" role="document">
@@ -100,13 +101,6 @@ class App extends PureComponent {
                     </div>
                     <div className={btnClass}>
                         <div className="row auto-clear">
-                            <div className="table-row header caption">
-                                <div className="list-group-item-heading list-text-block">Title</div>
-                                <div className=" list-text-block">Id</div>
-                                <div className=" list-text-block">Status</div>
-                                <div className=" list-text-block">Location</div>
-                                <div className="list-date list-text-block">Date/Time</div>
-                            </div>
                         </div>
                         <div className="row auto-clear">
                         {rows}

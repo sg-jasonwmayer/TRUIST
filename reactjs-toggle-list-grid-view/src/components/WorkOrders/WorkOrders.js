@@ -1,245 +1,90 @@
 const WorkOrders = [{
-    status: 'Draft',
-    service_date: '6/30/2016',
-    service_time: '2:17 PM',
-    title: 'John Smith',
-    address1: 'Head of Asset Finance',
-    address2: '',
-    // pay_type: 'hourly',
-    // pay_amount: 12,
-    id: 'See More',
-    project: 'TRUIST'
+    button_text: 'See More',
+    name: 'John Gregg',
+    title: 'Chairman of the Board',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }, {
-    status: 'Draft',
-    service_date: '6/30/2016',
-    service_time: '1:47 PM',
-    title: 'Lt Frank Drebbin',
-    address1: '6368 7th Circle Suite 69',
-    address2: 'Jamestown, MI 49427',
-    pay_type: 'hourly',
-    pay_amount: 8,
-    id: '47',
-    project: 'BB&T'
+    button_text: 'See More',
+    name: 'Dana Dhaliwal',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }, {
-    status: 'Draft',
-    service_date: '6/30/2016',
-    service_time: '1:17 PM',
-    title: 'Cheryl Denice',
-    address1: '4816 Meadow Ave Unit 83',
-    address2: 'Omaha, NE 68110',
-    pay_type: 'hourly',
-    pay_amount: 10,
-    id: '48',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    button_text: 'See More',
+    name: 'Tom Hacket',
+    title: 'Head of Investment Banking',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+},  {
+    button_text: 'See More',
+    name: 'Mark Huffsteeler',
+    title: 'VP Investment Banking',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
 }, {
-    status: 'Draft',
+    button_text: 'See More',
+    name: 'Lisa Meyer',
+    title: 'Head of Capital Markets',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Janet Jarret',
+    title: 'Head of Asset Finance',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Glenn Stewart',
+    title: 'Head of Corporate Banking',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'Work Done',
+    name: 'Erin Watson',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
+    name: 'Michael Wheeler',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+}, {
+    button_text: 'See More',
     service_date: '6/30/2016',
     service_time: '12:47 PM',
-    title: 'Martha Van Stoozen',
-    address1: '934 Laurel Field Apt 29',
-    address2: 'Bancroft, WI 54921',
-    pay_type: 'hourly',
-    pay_amount: 10,
-    id: '49',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Draft',
-    service_date: '6/30/2016',
-    service_time: '1:47 PM',
-    title: 'Joops Johnston',
-    address1: '4279 Dogwood Cove Unit 39',
-    address2: 'Purcellville, VA 20132',
-    pay_type: 'hourly',
-    pay_amount: 9,
-    id: '50',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Published',
-    service_date: '6/30/2016',
-    service_time: '1:47 PM',
-    title: 'Franklin Alvin',
-    address1: '3572 Lincoln Loop Ste 47',
-    address2: 'Fort Mc Kavett, TX 76841',
-    pay_type: 'hourly',
-    pay_amount: 15,
-    id: '52',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Published',
-    service_date: '6/30/2016',
-    service_time: '2:17 PM',
-    title: 'Silly Sally',
-    address1: '4601 Ninth Field Apt 56',
-    address2: 'Concord, CA 94521',
-    pay_type: 'hourly',
-    pay_amount: 9,
-    id: '54',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Published',
-    service_date: '6/30/2016',
-    service_time: '11:47 AM',
-    title: 'Cable Guy Larry',
-    address1: '3983 Fifth Loop Suite 55',
-    address2: 'Roach, MO 65787',
-    pay_type: 'hourly',
-    pay_amount: 12,
-    id: '55',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Routed',
-    service_date: '6/30/2016',
-    service_time: '1:47 PM',
-    title: 'Office Guy Jim the Cowardly Lion',
-    address1: '5583 Evergreen Arcade Suite 38',
-    address2: 'Abilene, TX 79699',
-    pay_type: 'hourly',
-    pay_amount: 13,
-    id: '56',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Work Done',
-    service_date: '6/30/2016',
-    service_time: '2:00 PM',
-    title: 'Bob Broken',
-    address1: '4208 Sunset Beach Apt 1',
-    address2: 'Newton Lower Falls, MA 02462',
-    pay_type: 'hourly',
-    pay_amount: 10,
-    id: '57',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Routed',
-    service_date: '6/30/2016',
-    service_time: '1:17 PM',
-    title: 'Kind Daft',
-    address1: '1354 4th Garden Suite 41',
-    address2: 'Lizemores, WV 25125',
-    pay_type: 'hourly',
-    pay_amount: 12,
-    id: '58',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Published',
-    service_date: '6/30/2016',
-    service_time: '12:47 PM',
-    title: 'Keen Keef',
-    address1: '4121 4th Estate Apt 91',
-    address2: 'Port Byron, IL 61275',
-    pay_type: 'hourly',
-    pay_amount: 13,
-    id: '60',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Published',
+    name: 'Robert Popols',
+    title: 'Head of Credit Liquidity',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+},
+{
+    button_text: 'See More',
     service_date: '6/30/2016',
     service_time: '2:47 PM',
-    title: 'Alon Meller',
-    address1: '9572 Church Hill Ste 51',
-    address2: 'Newbury Park, CA 91319',
-    pay_type: 'hourly',
-    pay_amount: 10,
-    id: '61',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    name: 'Alan Hunter',
+    title: 'Head of Business Investments',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }, {
-    status: 'Published',
+    button_text: 'See More',
     service_date: '6/30/2016',
     service_time: '1:47 PM',
-    title: 'Project Pat',
-    address1: '6615 Birch Bluff Unit 15',
-    address2: 'Burns, KS 66840',
-    pay_type: 'hourly',
-    pay_amount: 15,
-    id: '62',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    name: 'Pat Harriston',
+    title: 'Head of Credit and Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }, {
-    status: 'Published',
-    service_date: '6/30/2016',
-    service_time: '12:17 PM',
-    title: 'Jason Mayer',
-    address1: '4243 Jackson Circle Apt 86',
-    address2: 'Troy, IN 47588',
-    pay_type: 'hourly',
-    pay_amount: 10,
-    id: '63',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Assigned',
+    button_text: 'Assigned',
     service_date: '6/30/2016',
     service_time: '2:47 PM',
-    title: 'Natalie Springer',
-    address1: '3010 4th Avenue Unit 45',
-    address2: 'Alberta, MN 56207',
-    pay_type: 'hourly',
-    pay_amount: 15,
-    id: '64',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    name: 'James Neely',
+    title: 'Head of Investment Banking',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }, {
-    status: 'Assigned',
+    button_text: 'Assigned',
     service_date: '6/30/2016',
     service_time: '2:17 PM',
-    title: 'Rank Delfano',
-    address1: '9675 4th Field Ste 50',
-    address2: 'Saint Albans, MO 63073',
-    pay_type: 'hourly',
-    pay_amount: 10,
-    id: '65',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    name: 'Rank Delfano',
+    title: 'Chairman of Investment Banking',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }, {
-    status: 'Assigned',
-    service_date: '6/30/2016',
-    service_time: '2:17 PM',
-    title: 'Reezeey Deneezy',
-    address1: '286 Main Circle Unit 5',
-    address2: 'Cheriton, VA 23316',
-    pay_type: 'hourly',
-    pay_amount: 14,
-    id: '66',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Assigned',
-    service_date: '6/30/2016',
-    service_time: '12:17 PM',
-    title: 'ATM Jacking Jack',
-    address1: '1310 Jackson Expy Unit 87',
-    address2: 'Foxboro, MA 02035',
-    pay_type: 'hourly',
-    pay_amount: 9,
-    id: '67',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Assigned',
-    service_date: '6/30/2016',
-    service_time: '2:47 PM',
-    title: 'Fifi SkiSki',
-    address1: '3458 Delaware Pkwy Suite 76',
-    address2: 'Walnut Cove, NC 27052',
-    pay_type: 'hourly',
-    pay_amount: 15,
-    id: '68',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Assigned',
-    service_date: '6/30/2016',
-    service_time: '2:17 PM',
-    title: 'Izahiah Shalom',
-    address1: '5335 3rd Estate Suite 38',
-    address2: 'Akron, OH 44315',
-    pay_type: 'hourly',
-    pay_amount: 12,
-    id: '69',
-    project: 'Broken CCTV display - replace as per on site contaxt'
-}, {
-    status: 'Work Done',
-    service_date: '6/30/2016',
-    service_time: '1:17 PM',
-    title: 'Officer Omailey',
-    address1: '5005 Park Dr Suite 79',
-    address2: 'Chicago, IL 60685',
-    pay_type: 'hourly',
-    pay_amount: 13,
-    id: '70',
-    project: 'Broken CCTV display - replace as per on site contaxt'
+    button_text: 'See More',
+    name: 'Mike Diamond',
+    title: 'VP of Liquidity Delivery',
+    member_biopic: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 }];
 
 export default WorkOrders;

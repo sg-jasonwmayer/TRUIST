@@ -3,6 +3,7 @@ header {
     padding: 15px;
 }
 .avatar-image {
+    border-radius: 17px;
     width: 20%;
     height: 20%;
    

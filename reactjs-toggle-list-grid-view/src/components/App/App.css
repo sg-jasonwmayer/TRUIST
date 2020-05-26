@@ -17,6 +17,8 @@ header {
     background: #eeeeee;
 }
 .published-color {
+    margin:13px;
+    min-width: 7%;
     max-width: 100%;
 }
 .row-eq-height {
@@ -42,6 +44,7 @@ header {
 
 .thumbnail
 {
+    flex-direction: column;
     margin-bottom: 20px;
     padding: 0;
     -webkit-border-radius: 0;
@@ -49,9 +52,7 @@ header {
     border-radius: 0;
     transition: initial;
 }
-.sidebar{
-    color: #fff;
-}
+
 .toolTip-show, .arrow-left{
     display: none;
 }
@@ -216,7 +217,7 @@ p.list-status.list-text-block {
 .list-group-item .published-color{
     margin: 5px;
     max-width: 102px;
-    background: #298372;
+
     height: 29px;
     border-radius: 17px;
     color: white;
