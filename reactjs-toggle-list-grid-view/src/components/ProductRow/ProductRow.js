@@ -2,11 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import avatar1 from '../../assets/img1.png'
-import avatar2 from '../../assets/img2.png'
-import avatar3 from '../../assets/img3.png'
-import avatar4 from '../../assets/img4.png'
-import avatar5 from '../../assets/img5.png'
+
 
 import "./ProductRow.css";
 
