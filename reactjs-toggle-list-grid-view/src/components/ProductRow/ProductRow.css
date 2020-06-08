@@ -3,9 +3,10 @@ header {
     padding: 15px;
 }
 .avatar-image {
-    border-radius: 17px;
-    width: 20%;
-    height: 20%;
+    border-radius: 13px;
+    width: 120px;
+    height: 150px;
+    padding: 5px;
    
 }
 .logo-container {
@@ -17,6 +18,14 @@ header {
 }
 .sidebar{
     background: 000033;
+}
+.member_biopic {
+
+    white-space: nowrap; 
+    min-width: 220px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
 }
 
 .gray-bg{
@@ -48,6 +57,7 @@ header {
 
 .thumbnail
 {
+    flex-direction: column;
     margin-bottom: 20px;
     padding: 0;
     -webkit-border-radius: 0;
@@ -72,6 +82,7 @@ header {
     margin-top: 20px;
 }
 
+
 p.toolTip-show {
     position: absolute;
     right: -135px;
@@ -85,6 +96,7 @@ p.toolTip-show {
     border-radius: 6px;
 }
 .grid-group-item .caption{
+    flex-direction: column;
     border:1px solid #666666;
     padding: 10px;
     margin-bottom: 10px;
@@ -106,20 +118,24 @@ p.toolTip-show {
     margin-bottom: 10px;
 }
 .list-group-item .thumbnail:nth-child(even) {
+    flex-direction: column;
     background: #f2f2f2;
 }
 .thumbnail strong{
+    flex-direction: column;
     display: none;
 }
 .thumbnail-grid {
     padding-right: 0;
 }
 .thumbnail-grid strong{
+    flex-direction: column;
     display: block;
     font-weight: bold;
 }
 .item.list-group-item .thumbnail
 {
+    flex-direction: column;
     margin-bottom: 0;
 }
 .item.list-group-item .caption
@@ -150,6 +166,7 @@ p.toolTip-show {
 
 .list-group-item  .list-date{
     width: 50px;
+    padding: 10px;
 }
 .table-row.header.caption {
     background: #666;
@@ -165,7 +182,7 @@ p.list-status.list-text-block {
     margin-right: 20px;
 }
 
-.list-group-item .list-group-item-id{
+.list-group-item .button_text{
     width: 10px !important;
 }
 
@@ -222,10 +239,10 @@ p.list-status.list-text-block {
 .list-group-item .published-color{
     margin: 5px;
     max-width: 102px;
-    background: #298372;
+    background: white;
     height: 29px;
     border-radius: 17px;
-    color: white;
+    color:#666;
     line-height: 28px;
     text-indent: 8px;
 }
@@ -266,14 +283,11 @@ p.list-status.list-text-block {
     .row-eq-height {
         display: block;
     }
-    .sidebar {
-        color: #fff;
-        padding-bottom: 30px;
-    }
     .user-details .media-right{
         vertical-align: middle;
     }
     .thumbnail strong {
+        flex-direction: column;
         display: block;
     }
     .table-row.header.caption {

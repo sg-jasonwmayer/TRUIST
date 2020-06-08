@@ -13,6 +13,7 @@ header {
     background: 000033;
 }
 
+
 .gray-bg{
     background: #eeeeee;
 }
@@ -104,25 +105,29 @@ p.toolTip-show {
     background: #f2f2f2;
 }
 .thumbnail strong{
+    flex-direction: column;
     display: none;
 }
 .thumbnail-grid {
+    flex-direction: column;
     padding-right: 0;
 }
 .thumbnail-grid strong{
+    flex-direction: column;
     display: block;
     font-weight: bold;
 }
 .item.list-group-item .thumbnail
 {
+    flex-direction: column;
     margin-bottom: 0;
 }
 .item.list-group-item .caption
 {
     display: flex;
     display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
+    flex-direction: column;
+    -webkit-flex-direction: column;
     flex-grow: 0;
     -webkit-flex-grow: 0;
     flex-wrap: wrap;
@@ -162,6 +167,7 @@ p.list-status.list-text-block {
 
 .list-group-item .list-group-item-id{
     width: 10px !important;
+    padding: 10px;
 }
 
 .item.list-group-item:before, .item.list-group-item:after
@@ -217,10 +223,9 @@ p.list-status.list-text-block {
 .list-group-item .published-color{
     margin: 5px;
     max-width: 102px;
-
     height: 29px;
     border-radius: 17px;
-    color: white;
+    color:#666;
     line-height: 28px;
     text-indent: 8px;
 }
@@ -269,6 +274,7 @@ p.list-status.list-text-block {
         vertical-align: middle;
     }
     .thumbnail strong {
+        flex-direction: column;
         display: block;
     }
     .table-row.header.caption {
