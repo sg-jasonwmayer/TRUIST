@@ -17,12 +17,11 @@ const ProductRow = (props) => {
         <div className={btnClass}>
             <div className="caption">
                <img src={props.data.avatar} alt={props.data.name} className="avatar-image"/>
-                <h4 className="list-group-item-heading">
-                    {props.data.name} <br />
-                    {props.data.title}
+                <h3 className="list-group-item-heading">
+                    {props.data.name}     </h3>
+                    <h4>  {props.data.title}
                 </h4>
                 <p className="list-text-block">
-              
                 </p>
                 <p className="member_biopic">
                     {props.data.member_biopic}

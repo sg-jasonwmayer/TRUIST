@@ -6,7 +6,8 @@ import "./App.css";
 const Header = () => {
     return (
         <div  >
-          <img src={logo} alt="Truist Bank Logo" width="200"/>
+          <img onScroll="https://www.truist.com/content/dam/truist/us/en/logos/truist-logo.png" />
+          {/* <img src={logo} alt="Truist Bank Logo" width="200"/> */}
         </div>
     );
 };
