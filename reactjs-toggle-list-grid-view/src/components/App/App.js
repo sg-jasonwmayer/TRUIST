@@ -3,8 +3,6 @@ import classNames from 'classnames';
 import WorkOrders from '../WorkOrders';
 import ProductRow from '../ProductRow';
 import BtnGroup from '../BtnGroup';
-import logo from '../../assets/logo.png';
-
 import './App.css';
 
 
@@ -89,8 +87,7 @@ class App extends PureComponent {
             <div className="row row-eq-height gray-bg">
                 <div className="col-sm-9 col-xs-12 main-container">
                    <div className="logo-container">
-                   <img src="https://www.truist.com/content/dam/truist/us/en/logos/truist-logo.png"  width="200"/>
-                     {/* <img src={logo} alt="Truist Bank Logo" width="200"/> */}
+                   <img src="https://www.truist.com/content/dam/truist/us/en/logos/truist-logo.png" alt="Truist Homepage" title="Truist Homepage" width="200"/>
                    </div> 
                     <div className="row">
                         <div className="col-sm-offset-8 col-sm-4 text-right grid-space">

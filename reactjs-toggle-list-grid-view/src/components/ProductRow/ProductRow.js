@@ -12,25 +12,42 @@ const ProductRow = (props) => {
         'thumbnail': props.listView,
         'col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail-grid': props.gridView,
     });
+    const handleCardClick = () => {
+       if (props.listView){
+         classNames('',{
+            'thumbnail-exp': props.listView,
+            'col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail-grid': props.gridView,
+        });
+     } else if (props.gridView) {
+        let btnClass = classNames('',{
+            'thumbnail': props.listView,
+            'col-xs-12 col-sm-6 col-md-4 col-lg-3 thumbnail-grid-exp': props.gridView,
+        });
+    }
+}
     
     return (
-        <div className={btnClass}>
-            <div className="caption">
+        <div
+          className={btnClass}
+        > 
+        <div className="caption"  onClick={props.handleList}> 
                <img src={props.data.avatar} alt={props.data.name} className="avatar-image"/>
                 <h3 className="list-group-item-heading">
-                    {props.data.name}     </h3>
-                    <h4>  {props.data.title}
+                  {props.data.name}
+                </h3>
+                <h4>  
+                  {props.data.title}
                 </h4>
-                <p className="list-text-block">
-                </p>
                 <p className="member_biopic">
                     {props.data.member_biopic}
                 </p>
-                <p className="published-color" onClick={props.handleGrid}>
+                <p className="published-color" onClick={props.handleList}>
                   {props.data.button_text}
                 </p>
             </div>
         </div>
+   
+
     );
 };
 

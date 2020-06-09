@@ -4,8 +4,8 @@ header {
 }
 .avatar-image {
     border-radius: 13px;
-    width: 140px;
-    height: 150px;
+    max-width: 140px;
+    max-height: 150px;
     padding: 5px;
    
 }
@@ -20,19 +20,36 @@ header {
     background: 000033;
 }
 .member_biopic {
-
-    white-space: nowrap; 
-    min-width: 220px; 
+    transition-timing-function: ease-out;
+    max-width: 95%;
+    height: 40px;
     overflow: hidden;
     text-overflow: ellipsis; 
 
+}
+.member_biopic:hover {
+   transition:2s;
+   height: 600px;
+   text-overflow:ellipsis; 
 }
 
 .gray-bg{
     background: #eeeeee;
 }
 .published-color {
+    margin: 0px 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     max-width: 100%;
+}
+.published-color:hover {
+    transition-timing-function: ease-out;
+   bottom: 0;
+   left: 0;
+   transition: 1.5s;
+   background-color:#271c52;
+   color:whitesmoke;
 }
 .row-eq-height {
     display: -webkit-box;
@@ -96,6 +113,7 @@ p.toolTip-show {
     border-radius: 6px;
 }
 .grid-group-item .caption{
+    position: relative;
     flex-direction: column;
     border:1px solid #666666;
     padding: 10px;
@@ -140,6 +158,7 @@ p.toolTip-show {
 }
 .item.list-group-item .caption
 {
+    position: relative;
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
@@ -169,6 +188,7 @@ p.toolTip-show {
     padding: 10px;
 }
 .table-row.header.caption {
+    position: relative;
     background: #666;
     color: #fff;
     padding: 9px 5px 3px 5px;
@@ -237,7 +257,9 @@ p.list-status.list-text-block {
 /*Status Color*/
 
 .list-group-item .published-color{
-    margin: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     max-width: 102px;
     background: white;
     height: 29px;
@@ -245,6 +267,17 @@ p.list-status.list-text-block {
     color:#666;
     line-height: 28px;
     text-indent: 8px;
+    bottom: 0;
+    left: 0;
+}
+.list-group-item .published-color:hover{
+    position: absolute;
+    transition: 1.5s;
+    background-color:#271c52;
+    color:whitesmoke;
+    bottom: 0;
+    left: 0;
+
 }
 
 .list-group-item .routed-color{

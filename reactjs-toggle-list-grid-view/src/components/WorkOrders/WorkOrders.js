@@ -1,45 +1,45 @@
 const WorkOrders = [{
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/kelly-king-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
-    name: 'Kelly S. King',
-    title: 'Chairman and Chief Executive Officer',
-    member_biopic: 'Kelly is chairman and chief executive officer of Truist Financial Corporation, the nation’s premier financial services company serving approximately 10 million households. King began his career in 1972, joining the Management Development Program of Truist predecessor BB&T. His career at BB&T included leadership roles in commercial and retail banking, operations, insurance, corporate financial services, investment services and capital markets. He served as chief operating officer of BB&T Corporation and Branch Banking and Trust Company from June 2004 to December 2008 and president of BB&T Corporation from 1996 to June 2004. He was named president and chief executive officer of BB&T Corporation and chairman and chief executive officer of Branch Banking & Trust Company in January 2009 and became chairman of BB&T in January 2010. In December 2019, he became chairman and chief executive officer of Truist Financial Corporation, created through the merger of equals between BB&T Corporation and SunTrust Banks Inc. King served on the Federal Advisory Council of the Federal Reserve System from 2013 to 2016, and he served as its president in 2016. He also served on the board of the Federal Reserve Bank of Richmond from 2009 to 2012. King serves on the board of the Financial Services Roundtable and has served on the board of The Clearing House since 2009. He is a board member for BEST NC and a member of the National Leadership Advisory Council for High Point University. King has served as chairman of the North Carolina Bankers Association board, chairman of the North Carolina Rural Economic Center, chairman of the North Carolina Small Business and Technology Development Center and chairman of the Forsyth County United Way Tocqueville Leadership Society. He has also served as chairman of East Carolina University’s Board of Visitors and is the former chairman of the Board of the Piedmont Triad Partnership and a former vice-chairman of the American Bankers Council. A native of North Carolina, King earned a bachelor’s degree in business administration and a master’s in business administration from East Carolina University. He is a graduate of the Stonier Graduate School of Banking at Rutgers University.'
+    name: 'Kelly King',
+    title: 'Chief Executive Officer',
+    member_biopic: 'Kelly is chairman and chief executive officer of Truist Financial Corporation, the nation’s premier financial services company serving approximately 10 million households. King began his career in 1972, joining the Management Development Program of Truist predecessor BB&T. His career at BB&T included leadership roles in commercial and retail banking, operations, insurance, corporate financial services, investment services and capital markets. He served as chief operating officer of BB&T Corporation and Branch Banking and Trust Company from June 2004 to December 2008 and president of BB&T Corporation from 1996 to June 2004. He was named president and chief executive officer of BB&T Corporation and chairman and chief executive officer of Branch Banking & Trust Company in January 2009    became chairman of BB&T in January 2010. In December 2019.'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/bill-rogers-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
-    name: 'William H. Rogers, Jr.',
+    name: 'William Rogers',
     title: 'COO',
-    member_biopic: 'Rogers began his career in 1980, joining the commercial banking division of Truist predecessor SunTrust Bank. He held increasingly senior positions in corporate and commercial banking, corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012.'
+    member_biopic: 'Rogers began his career in 1980, joining the commercial banking division of Truist predecessor SunTrust Bank. He held increasingly senior positions in corporate and commercial banking, corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012.He held increasingly senior positions in corporate and commercial banking, corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012. Rogers began his career in 1980 held increasingly senior positions in corporate and commercial banking.'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/ellen-fitzsimmons-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
     name: 'Ellen Fitzsimmons',
     title: 'Chief Legal Officer',
-    member_biopic: 'She has held this position since December 2019, when the merger of equals between BB&T Corporation and SunTrust Banks, Inc. closed.  She is a member of the company’s executive leadership team. In her role, she oversees the legal, enterprise diversity and human resources functions of Truist.'
+    member_biopic: 'She has held this position since December 2019, when the merger of equals between BB&T Corporation and SunTrust Banks, Inc. closed.  She is a member of the company’s executive leadership team. In her role, she oversees the legal, enterprise diversity and human resources functions of Truist. He held increasingly senior positions in corporate and commercial banking, corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012. Financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities managemenrs began his career in 1980 held increasingly senior.'
 },  {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/daryl-bible-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
-    name: 'Daryl N. Bible',
+    name: 'Daryl Bible',
     title: 'Chief Finance Officer',
-    member_biopic: 'Bible is a member of the executive leadership team and oversees Truist’s accounting, tax, treasury, financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management.'
+    member_biopic: 'Bible is a member of the executive leadership team and oversees Truist’s accounting, tax, treasury, financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management. financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management. Financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management. Financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management.'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/beau-cummins-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
-    name: 'Hugh S. Cummins',
+    name: 'Hugh Cummins',
     title: 'Head of Institutional Group',
-    member_biopic: 'He assumed his current position on December 2019, upon the closing of the merger of equals between BB&T Corporation and SunTrust Banks, Inc.  He is a member of the company’s executive leadership team. In his role, Cummins oversees Truist’s Corporate & Institutional Group, which comprises of the following lines of business: Corporate & Investment Banking, Commercial Real Estate, Treasury Solutions and Grandbridge.  '
+    member_biopic: 'He assumed his current position on December 2019, upon the closing of the merger of equals between BB&T Corporation and SunTrust Banks, Inc.  He is a member of the company’s executive leadership team. In his role, Cummins oversees Truist’s Corporate & Institutional Group, which comprises of the following lines of business: Corporate & Investment Banking, Commercial Real Estate, Treasury Solutions and Grandbridge. He held increasingly senior positions in corporate and commercial banking, corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012. rs began his career in 1980 held increasingly senior. rs began his career in 1980 held rs began his career in 1980 held. '
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/scott-case-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
     name: 'Scott Case',
     title: 'CIO',
-    member_biopic: 'He assumed this position on December 2019, with the closing of the merger of equals between BB&T Corporation and SunTrust Banks, Inc. He is a member of the company’s executive leadership team. Case is responsible for Truist’s organizational unit that provides the company’s overall technology, operations and information-related services.'
+    member_biopic: 'He assumed this position on December 2019, with the closing of the merger of equals between BB&T Corporation and SunTrust Banks, Inc. He is a member of the company’s executive leadership team. Case is responsible for Truist’s organizational unit that provides the company’s overall technology, operations and information-related services. capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management. Financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management. Financial planning and analysis, investor relations, capital planning, mergers and acquisitions, enterprise spend management, financial systems, support services and facilities management'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/joseph-thompson-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
     name: 'Joe Thompson',
     title: 'Head of Corporate Banking',
-    member_biopic: 'He assumed this position on December 6, 2019 upon the closing of the merger of equals between BB&T Corporation and SunTrust Banks, Inc. He is a member of the company’s executive leadership team. Thompson has oversight responsibility for teams that deliver holistic wealth management solutions to affluent, high and ultra-high net worth individuals, families and business owners in the U.S. and abroad, as well as distinct solutions for individuals and businesses in the medical, legal, sports and entertainment industries. Truist Wealth also provides public, private and non-profit organizations with corporate trust, escrow and institutional investment management services, in addition to asset management solutions delivered by Sterling Capital Management.'
+    member_biopic: 'He assumed this position on December 6, 2019 upon the closing of the merger of equals between BB&T Corporation and SunTrust Banks, Inc. He is a member of the company’s executive leadership team. Thompson has oversight responsibility for teams that deliver holistic wealth management solutions to affluent, high and ultra-high net worth individuals, families and business owners in the U.S. and abroad, as well as distinct solutions for individuals and businesses in the medical, legal, sports and entertainment industries. Truist Wealth also provides public, private and non-profit organizations with corporate trust, escrow and institutional investment management services, in addition to asset management solutions delivered by Sterling Capital Management. rs began his career in 1980 held increasingly senior rs began his career in 1980 held increasingly senior'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/david-weaver-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
@@ -51,13 +51,13 @@ const WorkOrders = [{
     button_text: 'See More',
     name: 'Chris Henson',
     title: 'Head of Business Investments',
-    member_biopic: 'Henson is a member of the executive leadership team and oversees Truist’s Retail Community Bank, Commercial Community Bank, Banking Operations, Mortgage, Dealer Finance, National Consumer Finance & Payments as well as Insurance Holdings.'
+    member_biopic: 'Henson is a member of the executive leadership team and oversees Truist’s Retail Community Bank, Commercial Community Bank, Banking Operations, Mortgage, Dealer Finance, National Consumer Finance & Payments as well as Insurance Holdings. corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012.'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/ellen-koebler-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
     name: 'Ellen Koebler',
     title: 'Deputy Chief Risk Officer',
-    member_biopic: 'In this role, Koebler is responsible for the execution and oversight of enterprise risk for Truist. She is also a member of the company’s executive leadership team.'
+    member_biopic: 'In this role, Koebler is responsible for the execution and oversight of enterprise risk for Truist. She is also a member of the company’s executive leadership team. He held increasingly senior positions in corporate and commercial banking, corporate finance, retail banking, private wealth management and mortgage, prior to being named president in 2008 and chief operating officer in 2010. He was appointed president and CEO in June 2011 and became chairman and CEO in January 2012.'
 },
 {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/mike-maguire-500.png/_jcr_content/renditions/original',
@@ -75,7 +75,7 @@ const WorkOrders = [{
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/donta-wilson-500.png/_jcr_content/renditions/original',
     button_text: 'See More',
     name: 'Dontá Wilson',
-    title: 'Digital Client Experience LEad',
+    title: 'Digital Client Experience',
     member_biopic: 'Wilson is responsible for leading digital transformation and ensuring a world-class, distinctive client experience for all Truist clients. In this role, he oversees digital banking, digital sales, digital strategy and innovation, intelligent automation, client experience, client insights and analytics, experience design and research, marketing, corporate communications, and the Truist Foundation. Wilson also oversees Truist Ventures, the corporate arm created to invest in and partner with companies in pursuit of dynamic solutions such as Fintech companies. He is a member of the company’s executive leadership team.'
 }, {
     avatar: 'https://www.truist.com/content/dam/truist/us/en/images/leadership/david-weaver-500.png/_jcr_content/renditions/original',
