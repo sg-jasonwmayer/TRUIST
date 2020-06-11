@@ -199,6 +199,7 @@ p.list-status.list-text-block {
 
 @media (min-width:1200px){
     .member_biopic {
+        transition: .5s;
         transition-timing-function: ease-in;
         max-width:95%;
         max-height:100px;
@@ -206,33 +207,35 @@ p.list-status.list-text-block {
 
     }
     .member_biopic:hover {
-        transition-timing-function: ease-in;
+        transition-timing-function: ease-out;
+        transition:.5s;
+        height: 100%;
         max-width:95%;
-        transition:2s;
-        height: 600px;
         overflow:elipsis;
 
     }
     .caption {
-        transition: 2s;
-        height: 340px;
+        padding-bottom: 10px;
+        transition: .5s;
+        transition-timing-function: ease-in;
+        height: 390px;
         width: 270px
     }
     .caption:hover {
         transition-timing-function: ease-out;
         transition: .5s;
-        height: 450px;
+        height: 550px;
         z-index: 1000;
         width: 420%;
 
     }
     .col-xs-12 .col-sm-6 .col-md-4 .col-lg-3 .thumbnail-grid {
-        transition: height 2s;
+        transition: height .2s;
         height: 600px;
 
     }
     .col-xs-12 .col-sm-6 .col-md-4 .col-lg-3 .thumbnail-grid {
-        transition: width 2s;
+        transition: width .2s;
         width: 100%;
     }
     .auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
@@ -243,13 +246,16 @@ p.list-status.list-text-block {
 }
 @media (min-width:992px) and (max-width:1199px){
     .caption {
-        height: 340px;
+        padding-bottom: 10px;
+        transition:.5s;
+        transition-timing-function: ease-in;
+        height: 360px;
     }
     .caption:hover {
         z-index: 1000;
-        transition: 2s;
+        transition:.5s;
         width:310%;
-        height: 400px;
+        height:400px;
     }
     .auto-clear .col-md-1:nth-child(12n+1){clear:left;}
     .auto-clear .col-md-2:nth-child(6n+1){clear:left;}
@@ -259,11 +265,14 @@ p.list-status.list-text-block {
 }
 @media (min-width:768px) and (max-width:100%){
     .caption {
+        padding-bottom: 10px;
+        transition:.2s;
+        transition-timing-function: ease-in;
         width:100%;
-        height:340px;
+        height:360px;
     }
     .caption:hover {
-        transition: 2s;
+        transition:.2s;
         width:400%;
         height:650px;
     }
@@ -275,13 +284,14 @@ p.list-status.list-text-block {
 }
 @media (max-width:767px){
     .caption {
+        padding-bottom: 10px;
         width:100%;
-        transition-timing-function: ease-out;
-        transition: 2s;
+        transition:.5s;
+        transition-timing-function: ease-in;
         height: 360px;
     }
     .caption:hover {
-        transition: 2s;
+        transition:.2s;
         height: 600px;
         width: 200%;
     }

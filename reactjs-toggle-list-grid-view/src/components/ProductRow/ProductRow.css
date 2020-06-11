@@ -28,8 +28,8 @@ header {
 
 }
 .member_biopic:hover {
-   transition:2s;
-   height: 600px;
+   transition:.2s;
+   height: 100%;
    text-overflow:ellipsis; 
 }
 
@@ -47,7 +47,7 @@ header {
     transition-timing-function: ease-out;
    bottom: 0;
    left: 0;
-   transition: 1.5s;
+   transition: .5s;
    background-color:#271c52;
    color:whitesmoke;
 }
@@ -272,7 +272,7 @@ p.list-status.list-text-block {
 }
 .list-group-item .published-color:hover{
     position: absolute;
-    transition: 1.5s;
+    transition: .5s;
     background-color:#271c52;
     color:whitesmoke;
     bottom: 0;
